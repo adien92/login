@@ -1,0 +1,118 @@
+body{
+	background-color: #EEEEEE;
+}
+.all{
+	height: 300px;
+	width: 100%;
+	overflow: hidden;
+}
+.box_top{
+	height: 100%;
+	background-color: #1890B4;
+}
+/*.box_bottom{
+	height: 50%;
+	background-color: #EEEEEE;
+}*/
+.login_box{	
+	width: 100%;
+	position: absolute;
+	top: 55px;
+	left: 0;
+}
+.login{
+	height: 312px;
+	width: 513px;
+	background-color: #FFFFFF;
+	border: 2px solid #EEEEEE;
+	border-radius: 5px;
+	margin: 0 auto;
+	z-index: 1;	
+}
+.logo_pic{
+	margin : 0 auto;
+	height:128px;
+	width: 128px;
+	background-image: url('../image/monchiki.png');
+	background-repeat:no-repeat;
+}
+.sumglass{
+	margin : 0 auto;
+	height: 65px;
+	width: 100px;
+	background-image: url('../image/sunglasses4.png');
+	background-size:100px 100px;
+	background-repeat: no-repeat;
+	display: none;
+}
+.input_box{
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 30px;
+}
+.user_input{
+	background-image: url("../image/email.png");
+	
+}
+.user_pwd{
+	background-image: url("../image/pwd.png");
+	
+}
+.input_box input{
+	height: 52px;
+	width: 80%;
+	border: 2px solid #B1B1B1;
+	border-radius: 8px;
+	padding-left: 60px;
+	margin-top: 18px;
+	background-repeat:no-repeat;
+	background-position:20px 14px;
+}
+.input_box input:hover{
+	border: 2px solid #218FB1;	
+}
+.btn_box{
+	height: 80px;
+	background-color: #F7F7F7;
+	border-top: 2px solid #EEEEEE;
+}
+.btn_l{
+	height: 80px;
+	line-height: 80px;
+	padding-left: 40px;
+}
+.btn_l a{
+	color: #DADADA;
+}
+.btn_l a:hover{
+	color: red;
+}
+
+.btn_r a{
+	color: #DADADA;
+}
+.btn_r a:hover{
+	color: red;
+}
+
+.btn_r{
+	height: 80px;
+	text-align: center;
+	padding-right: 40px;
+}
+.btn_r input{
+	height: 38px;
+	width: 86px;
+	border-radius: 8px;
+	margin-top: 20px;
+	font-weight: solid;
+	margin-left: 20px;
+}
+.login_in{
+	color: white;
+	background-color: #1890B4;
+}
+.login_in:hover{	
+	background-color: #8C5B43;
+}
