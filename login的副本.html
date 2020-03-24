@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/resetCss.css">
+	<link rel="stylesheet" href="css/login.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<form class="all"  method="post">
+		<div class="box_top"></div>
+		<div class="box_bottom"></div>
+		<div class="login_box">
+			<div class="logo_pic">
+				<div class="sumglass"></div>
+			</div>
+			<div class="login">
+				<div class="input_box">					
+					<input  class="user_input" type="text" placeholder="login_accent@foxmail.com"><br>	
+					<input  class="user_pwd" type="password" placeholder="******">
+				</div>
+				<div class="btn_box">
+					<div class="btn_l fl">
+						<a href="#forget?">忘记密码？</a>
+					</div>
+					<div class="btn_r fr">
+						<a href="#reg" class="sign_up" >注册</a>
+						<input class="login_in" type="submit" value="登录">
+					</div>
+				</div>
+			</div>			
+		</div>
+	</form>
+</body>
+<script>
+	$(".user_pwd").mouseover(function(){
+		// $(".sumglass").css("display","block");
+		$(".sumglass").animate({
+		    height:'toggle'
+		  });
+	});
+	$(".user_pwd").mouseleave(function(){
+		// $(".sumglass").css("display","none");
+		$(".sumglass").animate({
+		     height:'toggle'
+		  });
+	});	
+</script>
+</html>
